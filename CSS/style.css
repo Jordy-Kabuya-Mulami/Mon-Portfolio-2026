@@ -163,6 +163,67 @@ section h2::after {
     font-size: 1.3rem;
 }
 
-h {
+.competences table {
+    width: 80%;
+    margin: 0% auto;
+    border-collapse: collapse;
+    background-color: var(--gris-clair);
+    box-shadow: 0 5px 15px rgba(red, green, blue, alpha);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.competences th, .competences table td {
+    padding: 15px;
+}
+
+.competences table thead {
+    background-color: var(--gris-tres-fonce);
+    color: white;   
+    text-transform: uppercase;
+}
+
+.competences table tbody td {
+    border-bottom: 1px solid var(--gris-tres-clair); 
+}
+
+.competences table tbody tr:nth-child(even) {
+    background-color: #fdfdfd;
+}
+
+.competences table tbody tr:hover {
+    transition: color 0.3s ease;
+}
+
+.competences table tbody tr:hover {
+    background-color: #EEE;
+}
+
+.competences table thead th {
+    text-align: left;
+}
+
+footer{
+    margin-top: 3rem;
     background-color: var(--gris-fonce);
+    padding: 3rem;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    margin-bottom: 1.2rem;
+}
+
+footer a {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+footer a:hover {
+    color: var(--orange-vif);
+    transform: translateY(-3px);
 }
