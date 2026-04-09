@@ -468,3 +468,17 @@ main section a:hover {
     color: var(--gris-fonce);
     transform: translateY(-3px);
 }
+.divertissement-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+.divertissement-item img:hover {
+    transform: scale(1.05);
+}
+
